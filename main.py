@@ -2,6 +2,8 @@ from tabulate import tabulate
 import requests
 import subprocess
 import sys
+from pathlib import Path
+Path("./download").mkdir(parents=True, exist_ok=True)
 
 
 def main():
@@ -72,6 +74,8 @@ def download(magnet_link):
 	cmd=[]
 	cmd.append("webtorrent")
 	cmd.append(magnet_link)
+	cmd.append("-o")
+	cmd.append("./download")
 	subprocess.call(cmd)
 
 

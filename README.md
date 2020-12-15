@@ -17,3 +17,11 @@ No need to go to pirate bay and search when using the command.
 ## Note
 * Downloaded Torrents will be in Download Folder.
 
+## Working of the project
+![How program works](https://github.com/jairajsahgal/torrent-manager-CLI/raw/master/torrent-manager-2020-12-15-18260.gif)
+
+## Future Enhancements
+1. Add Cross Platform support for windows users.
+1. Add multi player supports.
+1. Add Binge watching series support.
+1. Add GUI based input for non programmers.

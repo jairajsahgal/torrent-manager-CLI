@@ -1,9 +1,19 @@
 # torrent-manager-CLI
-torrent client manager for linux users, helps in uploading and downloading torrent with in built streaming for movies.
-Requirements:
-  npm
-  Webtorrent CLI <https://github.com/webtorrent/webtorrent-cli>
-  Python
-  Linux OS (it only works in Linux only)
-Python Packages it uses are in requirements.txt file
-The download files are in the program folder only. (will add that functionality)
+## Description
+Torrent Manager is a tool to watch movies online or download torrents from the comfort of your command line. 
+No need to go to pirate bay and search when using the command.
+
+## Requirements:
+ * npm for webtorrent CLI
+ * [Webtorrent CLI](https://github.com/webtorrent/webtorrent-cli)
+ * [Python](https://www.python.org/) 
+ 
+## How to install program
+  
+  ```bash
+  pip install -r requirements.txt
+  python main.py
+  ```
+## Note
+* Downloaded Torrents will be in Download Folder.
+
